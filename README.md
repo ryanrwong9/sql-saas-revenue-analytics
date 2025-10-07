@@ -83,3 +83,30 @@ This project shows I can:
 👋 **Ryan Wong**  
 💼 Finance Transformation | BizOps | FP&A  
 📍 San Francisco, CA
+
+
+
+
+# SQLite SaaS Revenue Analytics — Starter Kit
+
+This bundle gives you an **instantly queryable** SQLite database and CSVs for a realistic SaaS scenario.
+
+## What's Inside
+- `saas_analytics.sqlite` — preloaded SQLite DB (open in DB Browser for SQLite)
+- `data/` — CSVs: customers, subscriptions, invoices, payments
+- `sql/schema_sqlite.sql` — table DDL (SQLite)
+- `sql/queries_sqlite.sql` — example analytics queries
+
+## Quickstart (DB Browser for SQLite)
+1. Open **DB Browser for SQLite** → *Open Database...* → select `saas_analytics.sqlite`
+2. Go to **Execute SQL** tab
+3. Paste queries from `sql/queries_sqlite.sql`
+4. Run and explore results (export to CSV if desired)
+
+## Example Questions Answered
+- Monthly **net revenue** after discounts
+- Monthly **cash collected** vs invoiced
+- Booked **MRR snapshot** by month
+- **Cohort retention** (active customers by signup cohort × month)
+
+*Built for BizOps / FP&A portfolios — concise, clean, and practical.*
